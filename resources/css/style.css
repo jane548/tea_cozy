@@ -95,6 +95,8 @@ h4 {
 .photo {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin: 10px 13px;
 }
 
 .photo img {
