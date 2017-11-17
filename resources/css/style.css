@@ -107,3 +107,26 @@ h4 {
 .photo span {
   padding-top: 10px;
 }
+
+.bottom-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url(../images/locations.jpg);
+}
+
+.bottom-column .text-content {
+  background-color: transparent;
+}
+
+.location-content {
+  display: inline-flex;
+}
+
+.location {
+  background-color: black;
+  width: 300px;
+}
