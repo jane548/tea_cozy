@@ -138,3 +138,12 @@ h4 {
   display: block;
   margin: 35px 0px;
 }
+
+footer.text-content {
+  height: 200px;
+}
+
+#copyright {
+  text-align: left;
+  font-size: 18px;
+}
