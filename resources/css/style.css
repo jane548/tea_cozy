@@ -1,0 +1,109 @@
+html, body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  padding-right: 20px;
+}
+
+a {
+  color: seashell;
+  opacity: 0.9;
+}
+
+.space {
+  height: 69px;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.top-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/background.jpg);
+  height: 700px;
+  width: 1200px;
+}
+
+.text-content {
+  background-color: black;
+  width: 100%;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+}
+
+h4 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.middle-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  padding-top: 25px;
+  margin-top: 25px;
+}
+
+.image-content {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+}
+
+.photo img {
+  height: 200px;
+  width: 300px;
+}
+
+.photo span {
+  padding-top: 10px;
+}
