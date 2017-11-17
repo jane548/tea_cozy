@@ -120,6 +120,8 @@ h4 {
 
 .bottom-column .text-content {
   background-color: transparent;
+  padding: 0px;
+  margin-bottom: 15px;
 }
 
 .location-content {
@@ -129,4 +131,10 @@ h4 {
 .location {
   background-color: black;
   width: 300px;
+  margin: 0 20px;
+}
+
+.location span {
+  display: block;
+  margin: 35px 0px;
 }
