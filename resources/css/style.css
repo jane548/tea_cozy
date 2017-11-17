@@ -1,14 +1,14 @@
 html, body {
   font-family: Helvetica;
   font-size: 22px;
-  color: seashell;
+  color: rgba(255,245,238,0.9);
+  /*rgba used to render mulitple opacities*/
   background-color: black;
-  opacity: 0.9;
   text-align: center;
   margin-top: 0;
   padding-top: 0;
 }
-
+/*-------- Header Styles ---------*/
 header {
   display: flex;
   align-items: center;
@@ -35,10 +35,10 @@ nav {
 }
 
 a {
-  color: seashell;
-  opacity: 0.9;
+  color: rgba(255,245,238,0.9);
+  margin: 0 10px;
 }
-
+/*-------- End of Header Styles -------*/
 .space {
   height: 69px;
   width: 100%;
@@ -49,7 +49,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
 }
-
+/*---- Top Column Styles incl. mission statement ---*/
 .top-column {
   display: flex;
   flex-direction: column;
@@ -66,24 +66,21 @@ a {
 }
 
 h2 {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 15px;
-  padding-top: 10px;
 }
 
 h4 {
   margin-top: 15px;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
-
+/*---Middle column styles, tea blends ---*/
 .middle-column {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 1000px;
-  padding-top: 25px;
-  margin-top: 25px;
+  margin-top: 60px;
 }
 
 .image-content {
@@ -107,25 +104,28 @@ h4 {
 .photo span {
   padding-top: 10px;
 }
-
+/*---Bottom-column & Location Styles ---*/
 .bottom-column {
+  background-image: url(../images/locations.jpg);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 700px;
+  height: 500px;
   width: 1200px;
-  background-image: url(../images/locations.jpg);
+  margin-top: 60px;
 }
 
 .bottom-column .text-content {
   background-color: transparent;
   padding: 0px;
+  margin-top: 20px;
   margin-bottom: 15px;
 }
 
 .location-content {
   display: inline-flex;
+  margin-bottom: auto;
 }
 
 .location {
@@ -139,6 +139,14 @@ h4 {
   margin: 35px 0px;
 }
 
+#opacity.location {
+  color: rgba(255,245,238,1);
+}
+/*------- Footer Styles -------*/
+footer {
+  height: 270px;
+}
+
 footer.text-content {
   height: 200px;
 }
@@ -146,4 +154,6 @@ footer.text-content {
 #copyright {
   text-align: left;
   font-size: 18px;
+  margin-top: 80px;
+  margin-left: 20px;
 }
